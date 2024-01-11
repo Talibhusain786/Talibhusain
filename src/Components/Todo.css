@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.toDoApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #adadad;
+    min-height: 100vh;
+}
+
+.Heading {
+    text-align: center;
+    color: blueviolet;
+}
+
+.inputButton {
+    min-width: 50vw;
+    min-height: 25vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+
+.text {
+    width: 30%;
+    border: transparent;
+    margin-right: 20px;
+    padding: 14px 20px;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.Addbutton {
+    padding: 14px 20px;
+    width: 20%;
+    font-size: 1.2rem;
+    min-width: 10%;
+    cursor: pointer;
+    background-color: rgb(124, 219, 124);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+/* section 2 */
+.groupOfLists {
+    margin-top: 30px;
+    min-width: 50vw;
+    min-height: 50vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    word-break: break-all;
+    background-color: aqua;
+    margin: 10px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.sec1 {
+    width: 60%;
+}
+
+#date {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.list .listPara {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    min-height: 3vh;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.list .listButton {
+    height: 5vh;
+    width: 10vw;
+    background-color: rgb(186, 71, 71);
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    cursor: pointer;
+    margin: 0px 10px;
+    color: white;
+}
+
+.list .listButton:hover {
+    background-color: rgb(202, 101, 101);
+    transition: 1.3s;
+}
+
+.removeButton {
+    padding: 17px 70px;
+    border: none;
+    background-color: rgb(239, 82, 65);
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+    color: white;
+}
